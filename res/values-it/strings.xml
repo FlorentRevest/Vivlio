@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">Vivlio</string>
+    <string name="title_section4">Autori</string>
+    <string name="title_section3">Letto</string>
+    <string name="title_section2">Da Leggere</string>
+    <string name="title_section1">Libri</string>
+    <string name="title_add_menu">Metodo di aggiunta</string>
+    <string name="menu_settings">Parametri</string>
+    <string name="title_activity_main">Vivlio</string>
+    <string name="title_add1">Scansione il codice ISBN</string>
+    <string name="title_add2">Immettere Manualmente Il Codice ISBN</string>
+    <string name="title_add3">Immettere Manualmente Tutte Le</string>
+    <string name="title_activity_add_book">Aggiungi un libro</string>
+    <string name="title_activity_edit_book">Modificare un libro</string>
+    <string name="add_book_authors">Autori</string>
+    <string name="add_book_title">Titolo</string>
+    <string name="add_book_picture_description">Coperta del libro</string>
+    <string name="add_book_publisher">Editore</string>
+    <string name="add_book_page_nb">Numero di pagine</string>
+    <string name="add_book_comments">Commenti</string>
+    <string name="add_book_date">Data</string>
+    <string name="barcode_not_found">Il codice a barre non è stato trovato</string>
+    <string-array name="state_array">
+        <item>Da Leggere</item>
+        <item>Letto</item>
+    </string-array>
+    <string name="book_picture_description">Coperta del libro</string>
+    <string name="title_isbn_dialog">Inserisci il codice ISBN</string>
+    <string name="no_title_or_authors">Dovete scegliere almeno un titolo ad un autore.</string>
+    <string name="isbn_not_long_enough">L\'ISBN deve contenere 13 o 10 numeri.</string>
+    <string name="share_message">Ciao!\nDovresti gettare un occhio a questo libro che ho amato molto:</string>
+    <string name="share_message2">scritto da</string>
+    <string name="share_title">Quota con&#8230;</string>
+    <string name="info_book_title">TITOLO:</string>
+    <string name="info_book_authors">AUTORI:</string>
+    <string name="info_book_picture_description">Coperta del libro</string>
+    <string name="info_book_publisher">EDITORE:</string>
+    <string name="info_book_page_nb">NUMERO DI PAGINE:</string>
+    <string name="info_book_comments">COMMENTI:</string>
+    <string name="info_book_date">DATA:</string>
+    <string name="info_book_state">STATO:</string>
+    <string name="title_cover_menu">Scegliere una copertura</string>
+    <string name="title_cover1">Scegliere un\'immagine locale</string>
+    <string name="title_cover2">Scattare una foto del libro</string>
+    <string name="title_cover3">Ricerca su Internet</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:minHeight="185dp"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables" >
+
+    <ImageView
+        android:id="@+id/itemCoverView"
+        android:layout_width="108dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shadow"
+        android:contentDescription="@string/book_picture_description"
+        android:scaleType="fitXY"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:src="@drawable/default_cover" />
+
+    <TextView
+        android:id="@+id/itemTitleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:padding="4dp"
+        android:shadowColor="#BBB"
+        android:shadowDx="2"
+        android:shadowDy="1"
+        android:shadowRadius="1" />
+
+</LinearLayout>

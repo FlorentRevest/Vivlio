@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Vivlio</string>
+    <string name="title_section4">Authors</string>
+    <string name="title_section3">Read</string>
+    <string name="title_section2">To Read</string>
+    <string name="title_section1">Books</string>
+    <string name="title_add_menu">Adding method</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Vivlio</string>
+    <string name="title_add1">Scan ISBN</string>
+    <string name="title_add2">Enter ISBN Manually</string>
+    <string name="title_add3">Enter Everything Manually</string>
+    <string name="title_activity_add_book">Add A Book</string>
+    <string name="title_activity_edit_book">Edit A Book</string>
+    <string name="add_book_authors">Authors</string>
+    <string name="add_book_title">Title</string>
+    <string name="add_book_picture_description">Book\'s Picture</string>
+    <string name="add_book_publisher">Publisher</string>
+    <string name="add_book_page_nb">Number of Pages</string>
+    <string name="add_book_comments">Comments</string>
+    <string name="add_book_date">Date</string>
+    <string name="barcode_not_found">The barcode wasn\'t found</string>
+
+    <string-array name="state_array">
+        <item>To Read</item>
+        <item>Read</item>
+    </string-array>
+
+    <string name="book_picture_description">Book Picture</string>
+    <string name="title_isbn_dialog">Enter ISBN</string>
+    <string name="no_title_or_authors">You must choose at least one title and one author.</string>
+    <string name="isbn_not_long_enough">The ISBN must be 13 or 10 figures long</string>
+    <string name="share_message">Hey!\nYou should take a look at this book that I really liked:</string>
+    <string name="share_message2">writen by</string>
+    <string name="share_title">Share with&#8230;</string>
+    <string name="info_book_title">TITLE:</string>
+    <string name="info_book_authors">AUTHORS:</string>
+    <string name="info_book_picture_description">Book\'s Picture</string>
+    <string name="info_book_publisher">PUBLISHER:</string>
+    <string name="info_book_page_nb">PAGES NUMBER:</string>
+    <string name="info_book_comments">COMMENTS:</string>
+    <string name="info_book_date">DATE:</string>
+    <string name="info_book_state">STATE:</string>
+    <string name="title_cover_menu">Choose a cover of the book</string>
+    <string name="title_cover1">Choose a local picture</string>
+    <string name="title_cover2">Take photo of the book</string>
+    <string name="title_cover3">Search on the Internet</string>
+
+</resources>

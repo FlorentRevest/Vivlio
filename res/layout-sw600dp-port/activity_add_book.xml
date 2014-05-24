@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <RatingBar
+            android:id="@+id/editRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/Okbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@android:string/ok" />
+
+        <ImageView
+            android:id="@+id/bookPreview"
+            android:layout_width="90dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/add_book_picture_description"
+            android:src="@drawable/default_cover"/>
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/bookPreview"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint="@string/add_book_title"
+            android:maxLines="1" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editAuthors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editTitle"
+            android:layout_marginTop="51dp"
+            android:ems="10"
+            android:hint="@string/add_book_authors"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/editPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editAuthors"
+            android:layout_marginTop="69dp"
+            android:ems="10"
+            android:hint="@string/add_book_publisher"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/editPagesNb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editPublisher"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:hint="@string/add_book_page_nb"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editPagesNb"
+            android:layout_marginTop="78dp"
+            android:ems="10"
+            android:hint="@string/add_book_date"
+            android:inputType="date"
+            android:maxLines="1" />
+
+        <Spinner
+            android:id="@+id/stateSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editDate"
+            android:layout_marginTop="85dp"
+            android:entries="@array/state_array" />
+
+        <EditText
+            android:id="@+id/editComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/stateSpinner"
+            android:layout_marginTop="41dp"
+            android:ems="10"
+            android:hint="@string/add_book_comments"
+            android:inputType="textMultiLine" />
+
+    </RelativeLayout>
